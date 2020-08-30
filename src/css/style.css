@@ -1,0 +1,20 @@
+.button {
+    -fx-background-color: deepskyblue;
+    -fx-font-size: 12;
+}
+
+.text-area {
+
+    -fx-control-inner-background:yellow;
+    -fx-text-fill: blue;
+    -fx-highlight-text-fill: black;
+    -fx-highlight-fill: deeppink;
+    -fx-font-style: italic;
+    -fx-font-weight: bold;
+}
+
+.button:hover, #btnHello:hover {
+    -fx-background-color: pink;
+    -fx-text-fill: green;
+    -fx-font-weight: bold;
+}
