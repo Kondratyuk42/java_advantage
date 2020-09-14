@@ -12,7 +12,7 @@ public class Server {
     public static void main(String[] args) {
         Socket clientsocket = null;
         Scanner scanner = new Scanner(System.in);
-        try(ServerSocket serverSocket = new ServerSocket(8100)) {
+        try(ServerSocket serverSocket = new ServerSocket(8000)) {
 
             System.out.println("Сервер подключен");
             clientsocket = serverSocket.accept();

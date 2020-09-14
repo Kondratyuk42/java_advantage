@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class Client {
     private static final String serverAdress = "localhost";
-    private static final int serverPort = 8100;
+    private static final int serverPort = 8000;
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
